@@ -1,0 +1,23 @@
+{"level":"error","message":"Failed to Connect Database","timestamp":"2026-05-21 16:40:24"}
+{"level":"error","message":"Failed to Connect Database","timestamp":"2026-05-21 16:42:02"}
+{"level":"error","message":"Failed to Connect Database","timestamp":"2026-05-21 16:46:34"}
+{"level":"error","message":"Failed to Connect Database","timestamp":"2026-05-21 16:46:35"}
+{"level":"error","message":"Failed to Connect Database","timestamp":"2026-05-21 16:46:42"}
+{"level":"error","message":"Failed to Connect Database","timestamp":"2026-05-21 16:46:44"}
+{"level":"error","message":"Failed to Connect Database","timestamp":"2026-05-21 16:46:50"}
+{"level":"error","message":"Failed to Connect Database","timestamp":"2026-05-21 16:47:02"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:48:50"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:48:56"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:48:58"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:49:03"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:49:11"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:49:14"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:49:18"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:49:23"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:49:26"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:49:43"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:53:46"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:54:03"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:54:12"}
+{"level":"error","message":"Database connection failed","timestamp":"2026-05-21 16:59:02"}
+{"level":"error","message":"Expected double-quoted property name in JSON at position 60 (line 5 column 1)","method":"PUT","stack":"SyntaxError: Expected double-quoted property name in JSON at position 60 (line 5 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (D:\\user_management\\backend\\node_modules\\.pnpm\\body-parser@2.2.2\\node_modules\\body-parser\\lib\\types\\json.js:72:19)\n    at D:\\user_management\\backend\\node_modules\\.pnpm\\body-parser@2.2.2\\node_modules\\body-parser\\lib\\read.js:162:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\user_management\\backend\\node_modules\\.pnpm\\raw-body@3.0.2\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\user_management\\backend\\node_modules\\.pnpm\\raw-body@3.0.2\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\user_management\\backend\\node_modules\\.pnpm\\raw-body@3.0.2\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:508:28)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2026-05-23 11:42:52","url":"/api/users/update/07febfed-b4ee-4798-9b47-5317ceef7007"}

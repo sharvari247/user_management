@@ -448,3 +448,8 @@
 {"level":"http","message":"[3b8c706a-c8aa-48ca-a19c-9656c0e436d1] GET /api/roles/user/43f3548a-de9f-4b20-b2d9-feb665ff2247 401 0.895 ms","timestamp":"2026-05-23 12:34:50"}
 {"level":"info","message":"PostgreSQL Connected","timestamp":"2026-05-23 12:35:07"}
 {"level":"http","message":"[160c7614-71b4-4441-8bdc-b66f6742bca5] GET /api/roles/user/43f3548a-de9f-4b20-b2d9-feb665ff2247 200 66.715 ms","timestamp":"2026-05-23 12:35:07"}
+{"level":"info","message":"PostgreSQL Connected","timestamp":"2026-05-26 10:09:24"}
+{"level":"info","message":"Database connected successfully","timestamp":"2026-05-26 10:09:24"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-05-26 10:09:24"}
+{"level":"http","message":"[0e293ba9-4fd0-469e-b845-5854e6c6eccb] GET / 200 4.677 ms","timestamp":"2026-05-26 10:09:29"}
+{"level":"http","message":"[919ebcb4-af50-4c74-b380-34eb47a4a6ad] GET /favicon.ico 404 3.031 ms","timestamp":"2026-05-26 10:09:29"}

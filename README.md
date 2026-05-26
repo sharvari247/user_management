@@ -5,22 +5,20 @@ This project is a User Management and Role-Based Access Control (RBAC) backend s
 # Tech Stack
 
 1. TypeScript
-
-2. Node.js 
-3. Express.js 
-4. PostgreSQL 
-5. pg (Raw PostgreSQL Driver) 
-6. JWT Authentication 
-7. bcrypt 
-8. Zod Validation 
-9. Winston + Morgan Logging
+1. Node.js 
+1. Express.js 
+1. PostgreSQL 
+1. pg (Raw PostgreSQL Driver) 
+1. JWT Authentication 
+1. bcrypt 
+1. Zod Validation 
+1. Winston + Morgan Logging
 
 # Features
 
 ## Authentication
 
 - User Registration
-
 - User Login 
 - JWT Token Generation 
 - Password Hashing using bcrypt 
@@ -44,8 +42,82 @@ RBAC Foundation
 
 # Validation & Middleware
 
-Zod Request Validation
+ Zod Request Validation
 Error Handling Middleware
 Request Logging
 Request ID Tracking
 Centralized Response Helper
+
+# Project Setup
+
+### Clone the repository
+
+```bash
+git clone <your-repository-url>
+cd user_management
+```
+
+### Install Dependencies
+
+### Backend
+
+```bash
+cd backend
+pnpm install
+```
+
+## PostgreSQL Database Setup
+
+### Install PostgreSQL
+
+Download and install PostgreSQL from: https://www.postgresql.org/download/?utm_source=chatgpt.com
+
+During installation: Remember your PostgreSQL password
+
+Keep the default port as 5432
+
+### Create Database
+
+Open PostgreSQL Shell (psql) or pgAdmin and run:
+
+```sql
+CREATE DATABASE user_management;
+```
+
+### Configure Environment Variables
+
+Create a .env file inside the backend folder:
+
+```sql
+PORT=5000
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=your_password
+DB_NAME=user_management
+```
+
+### Run Database Migrations
+
+```bash
+cd backend
+pnpm run migration:run
+```
+
+### Start the Project
+
+Start Backend Server
+
+```bash
+cd backend
+pnpm run dev
+```
+
+### API base
+
+Base URL (dev): http://localhost:5000
+
+All endpoints below are under /api 
+
+
+

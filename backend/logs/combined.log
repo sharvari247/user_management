@@ -527,3 +527,27 @@
 {"level":"http","message":"[f51ba4cf-817e-4147-a50c-53d133fa91e5] GET /favicon.ico 404 2.833 ms","timestamp":"2026-06-05 15:48:59"}
 {"level":"http","message":"[4e778ca4-bba0-488c-8a3c-a96cab0f4298] GET /api/users 404 1.669 ms","timestamp":"2026-06-05 16:00:39"}
 {"level":"http","message":"[ac29a92c-8976-4898-9b7e-e598728fca03] GET /api/users 404 0.983 ms","timestamp":"2026-06-05 16:00:39"}
+{"level":"info","message":"PostgreSQL Connected","timestamp":"2026-06-05 19:03:33"}
+{"level":"info","message":"Database connected successfully","timestamp":"2026-06-05 19:03:33"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-05 19:03:33"}
+{"level":"info","message":"PostgreSQL Connected","timestamp":"2026-06-05 19:03:44"}
+{"level":"http","message":"[9726e3b7-da39-48df-a3cf-193182253ac8] POST /api/users/login 200 255.937 ms","timestamp":"2026-06-05 19:03:45"}
+{"level":"http","message":"[fa8b1726-91cb-4b24-8627-20af38f55265] GET / 304 0.918 ms","timestamp":"2026-06-05 19:03:57"}
+{"level":"http","message":"[08245cbd-0e0f-414e-8bb5-58ffa9fcc59d] GET /favicon.ico 404 2.988 ms","timestamp":"2026-06-05 19:03:57"}
+{"level":"http","message":"[091c9302-3f25-4e7f-aae5-eef798604b48] GET /.well-known/appspecific/com.chrome.devtools.json 404 0.700 ms","timestamp":"2026-06-05 19:04:01"}
+{"level":"http","message":"[b339e666-69b7-43b9-b106-8933d8506238] GET /api/users 404 1.340 ms","timestamp":"2026-06-05 19:04:53"}
+{"level":"info","message":"PostgreSQL Connected","timestamp":"2026-06-05 19:08:33"}
+{"level":"http","message":"[31519775-9044-421b-8b02-3806a6040aec] GET /api/users/all 200 163.958 ms","timestamp":"2026-06-05 19:08:33"}
+{"level":"http","message":"[dcce4b18-91cf-4867-b06a-5b54ea1cd0db] GET /api/users/all 401 4.136 ms","timestamp":"2026-06-05 19:36:38"}
+{"level":"http","message":"[4e19d1c1-ad12-4f47-b784-7ed33300cd59] GET /api/users/all 401 0.769 ms","timestamp":"2026-06-05 19:36:38"}
+{"level":"http","message":"[6b81cae7-055b-481b-8761-e4ae5fcd1d56] GET /api/users/all 401 0.717 ms","timestamp":"2026-06-05 19:37:06"}
+{"level":"http","message":"[53704857-afd7-47c0-a5ab-4c8cc42282bc] GET /api/users/all 401 0.345 ms","timestamp":"2026-06-05 19:37:06"}
+{"level":"http","message":"[d7b98daf-8d9d-4bd0-b4a2-6f6f2aea0e72] GET /api/users/all 401 0.527 ms","timestamp":"2026-06-05 19:37:13"}
+{"level":"http","message":"[339dd09c-4bfa-4f76-a84b-a9ba557b3758] GET /api/users/all 401 0.615 ms","timestamp":"2026-06-05 19:37:13"}
+{"level":"http","message":"[d5c35e81-bd5f-4984-a532-69463e7e0aa5] GET /api/users/all 401 1.573 ms","timestamp":"2026-06-05 19:49:35"}
+{"level":"http","message":"[07f2f9e4-3dc2-477b-83bf-3ca833a76c60] GET /api/users/all 401 1.006 ms","timestamp":"2026-06-05 19:49:35"}
+{"level":"http","message":"[c1c7c80a-aea4-4a2f-b916-8a7384ff100a] GET /api/users/all 401 1.117 ms","timestamp":"2026-06-05 19:51:06"}
+{"level":"http","message":"[0f7cf8fb-c08c-457e-925c-725b2cdedea2] GET /api/users/all 401 0.511 ms","timestamp":"2026-06-05 19:51:06"}
+{"level":"info","message":"PostgreSQL Connected","timestamp":"2026-06-05 19:54:28"}
+{"level":"http","message":"[3ba90b0d-71d5-4aa5-a1fc-0f538dd6cb71] GET /api/users/all 304 149.339 ms","timestamp":"2026-06-05 19:54:28"}
+{"level":"http","message":"[c072a715-1ece-4504-841d-d86dd3a2b06e] GET /api/users/all 304 10.942 ms","timestamp":"2026-06-05 19:54:28"}

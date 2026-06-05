@@ -113,11 +113,53 @@ cd backend
 pnpm run dev
 ```
 
-### API base
+## Frontend Setup
 
-Base URL (dev): http://localhost:5000
+### Prerequisites 
 
-All endpoints below are under /api 
+- Node js(v18 or Higher)
+- pnpm
+- Backend server running locally
 
+### Installation 
 
+Navigate to the frontend directory:
+
+cd frontend
+
+Install dependencies
+
+pnpm install
+
+Start the development server:
+
+pnpm run dev
+
+The application will be available at:
+
+http://localhost:5173
+
+Application Routes
+
+| Route  | Description                         |
+| ------ | ----------------------------------- |
+| /      | Welcome page                        |
+| /users | Displays user data from backend API |
+
+## Authentication
+
+Protected endpoints require a valid JWT token.
+
+For development and testing, store the token in browser local storage:
+
+```js
+localStorage.setItem(
+  "token",
+  "YOUR_JWT_TOKEN"
+);
+Verify stored token:
+localStorage.getItem("token");
+```
+
+The frontend automatically includes the token in API requests when fetching protected resources.
 

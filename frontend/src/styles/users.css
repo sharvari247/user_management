@@ -1,0 +1,41 @@
+.users-container {
+  padding: 2rem;
+}
+
+.users-title {
+  margin-bottom: 1rem;
+}
+
+.users-count {
+  margin-bottom: 1rem;
+  color: #6b7280;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  background: white;
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.users-table thead {
+  background-color: #2563eb;
+  color: white;
+}
+
+.users-table th,
+.users-table td {
+  padding: 14px;
+  text-align: left;
+}
+
+.users-table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.users-table tbody tr:hover {
+  background-color: #f9fafb;
+}

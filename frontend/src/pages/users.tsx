@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import "../styles/users.css";
 interface User {
   user_id: string;
   email: string;
@@ -48,36 +48,38 @@ const Users = () => {
   }
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Users</h1>
+  <div className="users-container">
+    <h1 className="users-title">Users</h1>
 
-      <p>Total Users: {users.length}</p>
+    <p className="users-count">
+      Total Users: {users.length}
+    </p>
 
-      <table border={1} cellPadding={10}>
-        <thead>
-          <tr>
-            <th>User ID</th>
-            <th>Email</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Status</th>
+    <table className="users-table">
+      <thead>
+        <tr>
+          <th>User ID</th>
+          <th>Email</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {users.map((user) => (
+          <tr key={user.user_id}>
+            <td>{user.user_id.slice(0, 8)}...</td>
+            <td>{user.email}</td>
+            <td>{user.first_name}</td>
+            <td>{user.last_name}</td>
+            <td>{user.status}</td>
           </tr>
-        </thead>
-
-        <tbody>
-          {users.map((user) => (
-            <tr key={user.user_id}>
-              <td>{user.user_id}</td>
-              <td>{user.email}</td>
-              <td>{user.first_name}</td>
-              <td>{user.last_name}</td>
-              <td>{user.status}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
+        ))}
+      </tbody>
+    </table>
+  </div>
+);
 };
 
 export default Users;

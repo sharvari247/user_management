@@ -551,3 +551,16 @@
 {"level":"info","message":"PostgreSQL Connected","timestamp":"2026-06-05 19:54:28"}
 {"level":"http","message":"[3ba90b0d-71d5-4aa5-a1fc-0f538dd6cb71] GET /api/users/all 304 149.339 ms","timestamp":"2026-06-05 19:54:28"}
 {"level":"http","message":"[c072a715-1ece-4504-841d-d86dd3a2b06e] GET /api/users/all 304 10.942 ms","timestamp":"2026-06-05 19:54:28"}
+{"level":"info","message":"PostgreSQL Connected","timestamp":"2026-06-05 23:05:05"}
+{"level":"info","message":"Database connected successfully","timestamp":"2026-06-05 23:05:05"}
+{"level":"info","message":"Server running on port 5000","timestamp":"2026-06-05 23:05:05"}
+{"level":"info","message":"PostgreSQL Connected","timestamp":"2026-06-05 23:05:18"}
+{"level":"http","message":"[2be927f4-d603-4b60-8f37-4c36d8f996d4] POST /api/users/login 200 277.510 ms","timestamp":"2026-06-05 23:05:19"}
+{"level":"http","message":"[f5d72ca0-093f-43f3-9ea6-f596d65bf01e] GET / 304 1.290 ms","timestamp":"2026-06-05 23:05:33"}
+{"level":"http","message":"[a9ae7363-4921-41c4-a788-b58e37da5bca] GET /favicon.ico 404 3.421 ms","timestamp":"2026-06-05 23:05:34"}
+{"level":"info","message":"PostgreSQL Connected","timestamp":"2026-06-05 23:05:40"}
+{"level":"http","message":"[ae3b664b-b5d2-41bc-bf0d-36437cf52039] GET /api/users/all 304 124.511 ms","timestamp":"2026-06-05 23:05:40"}
+{"level":"http","message":"[f53ccd5a-2b6d-4443-8835-5bada4b7b3c6] GET /api/users/all 304 3.764 ms","timestamp":"2026-06-05 23:05:40"}
+{"level":"info","message":"PostgreSQL Connected","timestamp":"2026-06-05 23:05:56"}
+{"level":"http","message":"[e439cf02-fe9e-42b5-8452-00de61f92798] GET /api/users/all 304 121.980 ms","timestamp":"2026-06-05 23:05:56"}
+{"level":"http","message":"[fdf0a5c7-1fea-4a8f-81ba-3085c84ade8e] GET /api/users/all 304 2.458 ms","timestamp":"2026-06-05 23:05:56"}

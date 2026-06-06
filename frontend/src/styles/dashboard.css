@@ -1,0 +1,25 @@
+.welcome-container {
+  height: calc(100vh - 70px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 16px;
+
+  text-align: center;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.welcome-card h1 {
+  margin-bottom: 1rem;
+}
+
+.welcome-card p {
+  color: #6b7280;
+}

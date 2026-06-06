@@ -1,16 +1,13 @@
 import { query } from "../../utils/query";
+import { INSERT_ROLE, FIND_ROLE_BY_NAME, GET_ALL_ROLES, ASSIGN_ROLE_TO_USER, GET_USER_ROLES, } from "./roles.queries";
 
-import {
-    INSERT_ROLE,
-    FIND_ROLE_BY_NAME,
-    GET_ALL_ROLES,
-    ASSIGN_ROLE_TO_USER,
-    GET_USER_ROLES,
-} from "./roles.queries";
+export const createRole = async (params: {
+    role_name: string;
+    description?: string;
+    hierarchy_level: number;
+}) => {
+    const { role_name, description, hierarchy_level } = params;
 
-
-export const createRole = async (payload: any) => {
-    const { role_name, description, hierarchy_level } = payload;
     const existingRole = await query(FIND_ROLE_BY_NAME, [role_name]);
 
     if (existingRole.rows.length > 0) {
@@ -26,20 +23,27 @@ export const createRole = async (payload: any) => {
     return result.rows[0];
 };
 
-
 export const getRoles = async () => {
-    const result = await query(GET_ALL_ROLES);
+    const result = await query(GET_ALL_ROLES, []);
+
     return result.rows;
 };
 
+export const assignRole = async (params: {
+    user_id: string;
+    role_id: string;
+}) => {
+    const { user_id, role_id } = params;
 
-export const assignRole = async (user_id: string, role_id: string) => {
     const result = await query(ASSIGN_ROLE_TO_USER, [user_id, role_id]);
+
     return result.rows[0];
 };
 
+export const getUserRoles = async (params: { user_id: string }) => {
+    const { user_id } = params;
 
-export const getUserRoles = async (user_id: string) => {
     const result = await query(GET_USER_ROLES, [user_id]);
+
     return result.rows;
 };
